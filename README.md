@@ -1,55 +1,46 @@
-# IronPulse Gym Membership + Cypress
+# FitSync Gym Management System
 
-## Requirements
-- Node.js 22.x recommended
+FitSync is a web-based Gym Membership Management System developed using React and Vite. It provides features for managing gym members, membership plans, payments, attendance, reports, and membership renewals.
+
+The project also includes Cypress End-to-End (E2E) automation testing to validate the major functionalities of the application.
+
+---
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- LocalStorage
+- Cypress
+- Node.js
+- Google Chrome
 - VS Code
-- Chrome
 
-## Install
-Open this folder in VS Code terminal:
+---
 
-npm install
+## Main Features
 
-## Start app
-npm run dev
-
-Open http://localhost:5173
-
-Demo login:
-Email: admin@ironpulse.com
-Password: admin123
-
-## Run Cypress
-Keep the Vite server running in one terminal.
-
-Open Cypress:
-npm run cypress:open
-
-Headless:
-npm run cypress:run
-
-## Build
-npm run build
-
-## Main features
-- Login validation
+- Admin Login
 - Dashboard
-- Member CRUD
-- Member search
-- Membership plans
-- Payment records
-- Attendance
+- Member Management
+- Member Search
+- Membership Plans
+- Payment Management
+- Attendance Management
+- Membership Renewal
 - Reports
 - Logout
-- LocalStorage persistence
-- Responsive maroon / black / white UI
-- Cypress E2E tests
+- LocalStorage Data Persistence
+- Responsive Maroon, Black and White UI
+- Cypress E2E Automation
 
-## Test cases included
-Login: 3
-Members: 5
-Plans: 2
-Payments: 3
-Attendance: 2
-Navigation/logout: 2
-Total: 17 automated tests
+---
+
+## Login Credentials
+
+```text
+Email: admin@ironpulse.com
+Password: admin123
